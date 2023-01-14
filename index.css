@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+}
+#header{
+    height: 60vh;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.list, .icons{
+    list-style: none;
+    text-align: center;
+}
+.list li, .icons li{
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+}
+.list li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: border-bottom 5s;
+}
+.list li a:hover{
+    color: darkgrey;
+    border-bottom: 1px solid darkgrey;
+}
+.name-iconcontainer{
+    margin: 14vh;
+}
+.name{
+    font-size: 10vh;
+    font-weight: 300;
+    text-align: center;
+}
+.icons li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.icons li a i:hover{
+    box-shadow: 0px 0px 6px ;
+}
+#about{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.myimg{
+    height: 15%;
+    width: 15%;
+    margin-top: -15vh;
+    /* margin-left: 44%; */
+    position: sticky;
+}
+.myimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-color: blue;
+}
+.aboutlines{
+    margin: 10vh 20vh 10vh 20vh;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#skills{
+    background-color: bisque;
+}
+.aboutskills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.progress{
+    margin: 50px 80px 50px 80px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    border-radius: 15px;
+    width: 30vh;
+}
+.cpp{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.cppnot{
+    border-radius: 15px;
+    background-color: grey;
+}
+#education{
+    margin: 40px;
+}
+.eduheading{
+    margin: 20px;
+ font-size: 25px;
+ font-weight: 600;   
+}
+.timeline{
+    width: 70%;
+    position: relative;
+    border: 2px solid black;
+}
+.timelinebox{
+    /* border: 2px solid black; */
+    margin: 5px;
+    width: 40%;
+    min-height: 150px;
+    left: 5%;
+    position: relative;
+}
+.timelinebox:nth-child(2n){
+    left: 50%;
+}
+.devider{
+    position: absolute;
+    height: 75%;
+    top: 10%;
+    left: 48%;
+    border: 2px darkgray dotted;
+    width: 0;
+}
+.travler{
+    position: sticky;
+    top: 35%;
+    transform: rotate(135deg);
+}
+#portfollio{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+.portheading, .contactheading{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.cards img{
+    height: 60vh;
+    width: 20vw;
+    min-width: 10vh;
+    margin: 40px;
+    border-radius: 20px;
+}
+.cards img:hover{
+    box-shadow: 0px 0px 15px 5px black;
+    transition: box-shadow 1s;
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: 
+    linear-gradient(to right top, rgb(94, 46, 94),
+    rgb(135, 108, 108), rgb(48, 48, 104));
+}
+.contactcontent div{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
+.contactcontent div input{
+    border-radius: 7px;
+    padding: 10px;
+}
+.contactcontent div textarea{
+    border-radius: 7px;
+    padding: 10px;
+}
+.contactcontent .submit{
+    border-radius: 7px;
+    padding: 5px;
+    left: 50%;
+    margin-bottom: 10px;
+}
